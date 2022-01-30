@@ -26,6 +26,9 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+    
+    void MoveForward(const float Amount);
+    void MoveRight(const float Amount);
 
 public:	
 
